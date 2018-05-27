@@ -85,7 +85,7 @@ GAME.appendChild(rock);
        if(top == GAME_HEIGHT-24){
     rock.remove();
        }
-    
+ }
   // We should kick of the animation of the rock around here
   
 
@@ -94,7 +94,7 @@ GAME.appendChild(rock);
   ROCKS.push(rock);
   // Finally, return the rock element you've created
   return rock;
-}
+
 }
 /**
  * End the game by clearing `gameInterval`,
